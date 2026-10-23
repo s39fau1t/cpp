@@ -1,0 +1,30 @@
+CURRENT:
+using enum Compiler::Options::Type;
+compiler->compile("hello.cpp", {{NoLink, {}}, {Output, "hello.o"}});
+
+idea:
+using enum Compiler::OptionType; //?
+auto command = Compiler::Command{compiler};
+
+//addFlag seperate func
+command
+	.addOption(NoLink)
+	.addOption(Output, "hello.o")
+	.execute();
+
+
+idea (revised):
+
+using enum Compiler::Command::Option;
+
+compiler->compile()
+	->addOption(NoLink)
+	.addOption(Output, "hello.o")
+	.end()
+	.execute();
+
+compiler->scan()
+	->addOption(NoLink)
+	.addOption(Output, "hello.o")
+	.end()
+	.execute();

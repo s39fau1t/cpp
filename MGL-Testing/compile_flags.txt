@@ -1,0 +1,5 @@
+-std=gnu++20
+-Ilibraries/include
+-xc++
+-Wall
+-Wextra

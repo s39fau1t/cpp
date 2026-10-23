@@ -1,0 +1,43 @@
+cargo-like package manager
+
+can use other c++ package manager registries (conan, vcpkg)
+
+subcommands:
+almost everything cargo has
+
+priorites:
+new (makes a new project)
+init (makes a new project in the current directory)
+build (builds project)
+run (builds and runs project)
+
+
+
+
+TODO
+remove init command
+only new command
+new with no arguments inits in current dir
+new with arguments creates new dir and inits
+if folder already exists, error
+I think this is done
+
+
+
+
+TODO
+make warnings less verbose?
+
+
+
+TODO
+figure out how to input options in compiler-agnostic way
+
+
+
+
+
+
+BIG TODO
+don't recompile stuff that already exists (how do we know if a file has changed and needs to be recompiled?)
+https://stackoverflow.com/questions/1789705/how-does-make-know-which-files-to-update

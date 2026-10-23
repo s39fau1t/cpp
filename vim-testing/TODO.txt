@@ -1,0 +1,16 @@
+Infinite Background: Done
+Enemy/Bullet Collision: Done
+RNG: Done
+Collision Functions: Done
+Enemy/Enemy Collision: Done
+Enemy/Player Collision: Done
+Health: Done
+Enemy Manager: Done
+Scene Management: Done (class?): NOT DONE
+Button Class (for UI): Done
+Letterboxing?
+Menu/UI (RESPONSIVE! letterboxing would fix this)
+Death
+Scaling/Different Types of Enemies
+XP
+Upgrades

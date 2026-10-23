@@ -1,0 +1,16 @@
+nodecpp or node.cpp? (not important)
+nodecpp.h or node.h?
+
+figure out error interface (should I provide a js-like error class? what properties should the error class returned in cb's have? should it be in the namespace? where should I put the error codes?)
+rethink error api
+
+convert to modules (once supported)
+use stacktrace for errors (once supported)
+
+make sure this works on windows
+
+
+
+
+
+abandoning this for now; I don't think this would actually be that useful
