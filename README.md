@@ -11,5 +11,9 @@ Most are unfinished, some are just me messing around or playing with things
 
 
 - **Level Editor** - an editor I made to create levels for Platformer
-- **vim-testing** - was testing out the text editor vim and got carried away making a game where hawaiian pizza shoots pineapple slices to defend itself from attacking cheese pizzas
+- **vim-testing**
+  <br>
+  <img width="244" height="182" src="https://github.com/user-attachments/assets/c6d37500-b1b5-4eec-90fd-f641ffe92fad" />
+  <br>
+  this one has kind of a funny story behind it; I was testing out the text editor vim and got carried away making a game where hawaiian pizza shoots pineapple slices to defend itself from attacking cheese pizzas
 - **nodecpp** - an attempt to recreate the Nodejs standard library on top of libuv; didn't get very far but I'm quite proud of my EventEmitter implementation which uses template metaprogramming to allow for compile-time defined events
